@@ -1,10 +1,6 @@
 import Head from 'next/head';
 
-type Props = {
-  allPosts: string[]
-};
-
-const Index = ({allPosts}: Props) => (
+const Index = () => (
   <>
     <Head>
       <title>Build Me</title>
@@ -14,9 +10,3 @@ const Index = ({allPosts}: Props) => (
 );
 
 export default Index;
-
-export const getStaticProps = async () => ({
-  props: {
-    allPosts: [],
-  },
-});

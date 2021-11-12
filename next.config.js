@@ -1,4 +1,5 @@
 module.exports = {
+  swcMinify: true,
   /**
    * Environment variables go here
    */
